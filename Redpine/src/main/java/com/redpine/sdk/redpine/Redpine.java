@@ -70,4 +70,8 @@ public class Redpine {
         String encodedToken = "Basic "+encodedBytes;
         return encodedToken;
     }
+  
+    public JSONObject getVersion(){
+      return null;
+    }
 }
